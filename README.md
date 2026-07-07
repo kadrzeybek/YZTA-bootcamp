@@ -69,9 +69,22 @@ Her task, zorluk derecesine göre Fibonacci puanlaması (1-2-3-5-8) ile puanlanm
 
 ## Daily Scrum
 
-Daily Scrum toplantıları Slack üzerinden yazılı olarak yürütülmüştür. Toplantı kayıtları ekran görüntüsü olarak aşağıda paylaşılmıştır:
+Rabia Sena UYSAL (**Product Owner**):
+**Bu hafta:** Proje fikrini netleştirdim, README ve product backlog'u hazırladım, sprint board'u kurdum.
+**Önümüzdeki hafta:** Backlog'daki task'ların ilerlemesini takip edeceğim, sprint review/retrospective için hazırlık yapacağım.
+**Engel:** Yok.
 
-*(Buraya Slack/WhatsApp daily scrum ekran görüntülerini ekleyin: `![Daily Scrum](görsel-linki)`)*
+**Kadir Zeybekoğlu (Scrum Master):**
+**Bu hafta:** Takımı toparladım, sprint sürecini ve GitHub reposunu ayarladım, örnek repoları inceledim.
+**Önümüzdeki hafta:** Daily/haftalık akışını takip edeceğim.
+**Engel:** Yok.
+
+**Sena Nur Ayçiçek (Developer):**
+**Bu hafta:** Proje fikrini inceledim.
+**Önümüzdeki hafta:** Metin Yazarı Agent için SEO uyumlu ürün açıklaması prompt şablonu üzerinde çalışacağım.
+**Engel:** Yok.
+
+
 
 ## Sprint Board Update
 
@@ -94,38 +107,31 @@ Sprint 1 başında, takım süreç kurulumuyla ilgili task'lar (GitHub reposu, R
 Sprint 1 sırasında aşağıdaki hedefler başarıyla tamamlanmıştır:
 
 **Tamamlanan Çalışmalar:**
-- ✅ Takım rollerinin netleştirilmesi ve sorumlulukların tanımlanması
-- ✅ GitHub reposunun oluşturulması ve README'nin ilk versiyonunun hazırlanması
-- ✅ Product Backlog'un detaylı şekilde çıkarılması ve her task'ın puanlanması
-- ✅ Miro üzerinde Sprint board'un kurulması ve 4 sütunlu workflow'un implementasyonu
-- ✅ Daily Scrum rutininin Slack üzerinden başlatılması
-- ✅ Tasarımcı Agent için prompt üretim mantığının ilk taslağının oluşturulması
-- ✅ Metin Yazarı Agent için temel akış ve yapısının belirlenmesi
+- Takım rollerinin netleştirilmesi ve sorumlulukların tanımlanması
+- GitHub reposunun oluşturulması ve README'nin ilk versiyonunun hazırlanması
+- Product Backlog'un detaylı şekilde çıkarılması ve her task'ın puanlanması
+- Miro üzerinde Sprint board'un kurulması ve 4 sütunlu workflow'un implementasyonu
+- Daily Scrum rutininin Slack üzerinden başlatılması
+- Tasarımcı Agent için prompt üretim mantığının ilk taslağının oluşturulması
 
-**Katılımcı Görüşleri:**
-- Takım, sprint hedeflerine uygun şekilde işleri tamamladığına memnun
-- Agile metodoloji ve scrum framework'ün etkin şekilde uygulanabildiği gözlemlenmiştir
-- İletişim kanalları (Slack, Miro) takım iş birliğine uygun şekilde kurulmuştur
 
-**Sprint Çıktısı:** 35 puan başarıyla tamamlanmıştır. Proje altyapısı ve takım süreci sağlam bir şekilde kurulmuş, ürün geliştirme için hazırlanmıştır.
+**Sprint Çıktısı:** Proje altyapısı ve takım süreci sağlam bir şekilde kurulmuş, ürün geliştirme için hazırlanmıştır.
 
 ## Sprint Retrospective
 
 **İyi Giden Noktalar:**
-- 🟢 Takımın hızlı şekilde organize olması ve roller konusunda anlaşmaya varması
-- 🟢 Daily Scrum'ların disiplinli şekilde yürütülmesi
-- 🟢 Miro board'un renkli kartlarla organize edilmesi - görsel olarak takip kolaylaştı
-- 🟢 Product Owner'ın ürün vizyonunu çok açık şekilde iletmesi
-- 🟢 Teknik setup (GitHub, README, backlog) hızlı tamamlanması
+- Takımın roller konusunda anlaşmaya varması
+- Miro board'un kartlarla organize edilmesi 
+- Product Owner'ın ürün vizyonunu çok açık şekilde iletmesi
+- Teknik setup (GitHub, README, backlog) hızlı tamamlanması
 
 **Geliştirilmesi Gereken Noktalar:**
-- 🟡 Tasarımcı Agent için prompt mühendisliği konusu daha derinlemesine çalışılması gerekiyor
-- 🟡 Daily Scrum'lar daha yapılandırılmış bir format (What, How, Blockers) izlenebilir
-- 🟡 Sprint board'da task completion rate'in daha açık şekilde takip edilmesi
-- 🟡 Teknik dökümanların (Agent lojiği) daha detaylı hazırlanması
+- Tasarımcı Agent için prompt mühendisliği konusu daha derinlemesine çalışılması gerekiyor
+- Daily Scrum'ların disiplinli şekilde yürütülmesi
+- Daily Scrum'lar daha yapılandırılmış bir format izlenebilir
+- Teknik dökümanların daha detaylı hazırlanması
 
 **Bir Sonraki Sprint İçin Alınan Aksiyonlar:**
-1. Sprint 2'de Tasarımcı Agent'ın prototipinin oluşturulması
+1. Sprint 2'de Tasarımcı Agent'ın backend tarafının oluşturulması
 2. LLM entegrasyonu için teknik spec dökümanının detaylı hazırlanması
-3. Daily Scrum format'ı standardize edilmesi (360 format)
-4. Sprint velocity'nin daha doğru tahmin edilmesi için velocity tracking'in başlatılması
+3. Daily Scrum format'ı standardize edilmesi
