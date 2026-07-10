@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper font-body text-ink antialiased;
+  }
+}
+
+@layer components {
+  /* Neo-brutalist kart: kalın siyah kenarlık + ofset gölge */
+  .card-brutal {
+    @apply rounded-2xl border-[3px] border-ink bg-white shadow-brutal;
+  }
+
+  .btn-brutal {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-[3px] border-ink px-6 py-3 font-display font-bold uppercase tracking-wide shadow-brutal-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-brutal active:translate-y-0.5 active:shadow-none disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0 disabled:hover:shadow-brutal-sm;
+  }
+
+  .btn-pink {
+    @apply btn-brutal bg-pink text-white;
+  }
+
+  .btn-lemon {
+    @apply btn-brutal bg-lemon text-ink;
+  }
+
+  .btn-white {
+    @apply btn-brutal bg-white text-ink;
+  }
+
+  .input-brutal {
+    @apply w-full rounded-xl border-[3px] border-ink bg-white px-4 py-3 font-medium outline-none transition-shadow placeholder:text-ink/40 focus:shadow-brutal-pink;
+  }
+
+  .label-brutal {
+    @apply mb-1.5 block font-display text-sm font-bold uppercase tracking-widest text-ink;
+  }
+
+  .badge {
+    @apply inline-block rounded-full border-2 border-ink px-3 py-1 text-xs font-bold uppercase tracking-wider;
+  }
+}
