@@ -172,28 +172,7 @@ Sprint 2'de, projenin fonksiyonel iskeleti tamamlanmıştır. Story 1, Story 2 v
 
 ## Sprint Board Update
 
-Sprint 2 sonunda Miro Board üzerindeki kartların güncel durumları ve yeni eklenecekler şu şekildedir:
-
-- **Done (Tamamlananlar) Sütunundaki Kartlar (14 adet):**
-  - **Story 1 (Ürün Bilgi Girişi Akışı)** task'ları (Girdi alanlarının belirlenmesi, Wireframe çizimi, JSON veri modeli tanımlanması)
-  - **Story 2 (Tasarımcı Agent — Prompt Üretimi)** task'ları (Prompt şablonu tasarlanması, test edilmesi, kalite kontrolü)
-  - **Story 3 (Görsel Üretim Entegrasyonu)** altındaki *API/araç seçiminin yapılması* taskı  (2 puan)
-  - **Story 4 (Metin Yazarı Agent — Taslak Akış)** task'ları (SEO prompt şablonu yazımı, örnek açıklama metni testi)
-  - **Story 5 (Takım & Süreç Kurulumu)** task'ları (Repo kurulumu, Miro backlog, Board kurulumu, Daily Scrum rutini, Rollerin netleşmesi)
-
-- **In Progress (Devam Edenler) Sütunundaki Kartlar (2 adet):**
-  - **Story 3 (Görsel Üretim Entegrasyonu)** altındaki kalan task'lar:
-    - *Basit bir API çağrısı ile örnek görsel üretiminin denenmesi* (5 puan)
-    - *Üretilen görselin kaydedilmesi/gösterilmesi* (1 puan)
-
-- **To Do (Yapılacaklar) Sütunundaki Kartlar (3 adet):**
-  - *Veri Tabanı Yapılandırması ve Ortam Değişkenleri* (3 puan - Story 6)
-  - *Alternatif Görsel API Arayüz Entegrasyonu* (Story 7)
-  - *Uygulamanın Canlı Ortama Dağıtımı (Deployment) Süreçleri* (2 puan)
-
-- **Backlog (Ürün Havuzu) Sütunundaki Kartlar (2 adet):**
-  - *API Anahtarı, Hata Yönetimi & Alternatif LLM Seçenekleri* (Story 8)
-  - *Bulut Depolama Entegrasyonu* (Story 9)
+Miro Board Ekran Görüntüleri:
 
 ![Sprint 2 Board - 1](/readme-img/sprint-2-board-0.png)
 ![Sprint 2 Board - 2](/readme-img/sprint-2-board-1.png)
